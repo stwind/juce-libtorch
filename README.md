@@ -27,7 +27,7 @@ cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXE
 cmake --build . --target install
 ```
 
-Now `temp/pytorch/libtorch` show be like
+Now `temp/pytorch/libtorch` should be like
 
 ```sh
 $ tree -L 1 temp/pytorch/libtorch
@@ -43,8 +43,8 @@ temp/pytorch/libtorch
 Download [JUCE](https://juce.com/download/) and unzip to a folder, e.g. `temp/JUCE`
 
 ```sh
-$ tree -L 1 /Users/stwindfy/temp/juce/JUCE
-/Users/stwindfy/temp/juce/JUCE
+$ tree -L 1 temp/juce/JUCE
+temp/juce/JUCE
 ├── BREAKING-CHANGES.txt
 ├── CMakeLists.txt
 ├── ChangeList.txt
