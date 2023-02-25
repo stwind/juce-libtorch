@@ -79,12 +79,12 @@ $ cmake -B build -DTORCH_DIR=<TORCH_DIR> -DJUCE_DIR=<JUCE_DIR>
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE
--- Found Torch: /Users/stwindfy/temp/pytorch/libtorch/lib/libtorch.dylib
+-- Found Torch: temp/pytorch/libtorch/lib/libtorch.dylib
 -- Configuring juceaide
 -- Building juceaide
 -- Exporting juceaide
--- Performing Test HAVE_FLAG__ffile_prefix_map__Users_stwindfy_projects_juce_libtorch_build__deps_catch2_src__
--- Performing Test HAVE_FLAG__ffile_prefix_map__Users_stwindfy_projects_juce_libtorch_build__deps_catch2_src__ - Success
+-- Performing Test HAVE_FLAG__ffile_prefix_map__Users__projects_juce_libtorch_build__deps_catch2_src__
+-- Performing Test HAVE_FLAG__ffile_prefix_map__Users__projects_juce_libtorch_build__deps_catch2_src__ - Success
 -- Configuring done
 -- Generating done
 -- Build files have been written to:
