@@ -4,7 +4,7 @@
 
 ### Prequisite
 
-* CMake 3.25
+- CMake 3.25
 
 ### Download and build libtorch
 
@@ -78,8 +78,8 @@ $ cmake -B build -DTORCH_DIR=<TORCH_DIR> -DJUCE_DIR=<JUCE_DIR>
 -- Detecting CXX compile features - done
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
--- Found Torch: /Users/stwindfy/temp/pytorch/libtorch/lib/libtorch.dylib  
+-- Found Threads: TRUE
+-- Found Torch: /Users/stwindfy/temp/pytorch/libtorch/lib/libtorch.dylib
 -- Configuring juceaide
 -- Building juceaide
 -- Exporting juceaide
@@ -119,4 +119,5 @@ Total Test time (real) =   0.40 sec
 
 ## References
 
-* [sudara/pamplejuce: A JUCE Plugin CI template. JUCE 7 & Catch2 with macOS notarization and Windows EV code signing on Github Actions](https://github.com/sudara/pamplejuce)
+- [sudara/pamplejuce: A JUCE Plugin CI template. JUCE 7 & Catch2 with macOS notarization and Windows EV code signing on Github Actions](https://github.com/sudara/pamplejuce)
+- [microsoft/vscode-cmake-tools: CMake integration in Visual Studio Code](https://github.com/microsoft/vscode-cmake-tools)
